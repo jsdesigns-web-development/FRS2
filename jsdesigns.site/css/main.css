@@ -1,0 +1,93 @@
+.navbar.navbar-expand-lg.navbar-light{
+  background: #182B3A;
+  width: 100%;
+}
+
+h1 {
+  color: #D3461C;
+  padding: .25em 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #FDFFFC;
+  margin: 1em .3em;
+  font-family: "Julius Sans One";
+  font-weight: bold;
+  transition: all .3s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  text-decoration: none;
+  color: #FFB045;
+}
+
+li.nav-item {
+  line-height: .1;
+}
+
+
+/* Home page */
+
+#home {
+  background: #182B3A;
+  width: 100%;
+  margin-top: 3em;
+  -webkit-box-shadow: 0px 3px 17px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 17px -6px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 17px -6px rgba(0,0,0,0.75);
+}
+
+.jumbotron {
+  background: none;
+}
+
+#home p {
+  color: lightgray;
+}
+
+
+#services {
+  margin-top: -2em;
+}
+
+/* Templates */
+
+#template {
+  background: #182B3A;
+  padding: 1.5em 0;
+}
+
+.card {
+  border: none;
+  border-radius: 1em;
+  background: none;
+}
+
+
+.card img {
+  border-radius: 1em;
+
+}
+
+.card p {
+  color: #FDFFFC;
+}
+
+.card a {
+  background: none;
+  color: #FDFFFC;
+  border-color: #FFB045;
+  text-align: center;
+}
+
+.card h4 {
+    color: #FFB045;
+    text-align: center;
+}
+
+.card a:hover {
+  background: #FFB045;
+  color: #182B3A;
+  border-color: #FFB045;
+  text-align: center;
+}
