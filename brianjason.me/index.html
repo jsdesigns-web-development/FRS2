@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <title>brianjason.me | a personal site</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <div class="container border border-dark rounded main-frame">
+      <div>
+        <div id="flame-container">
+          <div id="flame"></div>
+        </div>
+        <h1 id="myName">Brian Jason</h1>
+        <h4>a personal site</h4>
+      </div>
+      <div class="social">
+        <span class="span-social">
+          <a href="https://github.com/holaymolay"><i class="fab fa-github"></i></a>
+        </span>
+        <span class="spacer-social"> | </span>
+        <span class="span-social">
+          <a href="www.linkedin.com/in/brianjosephjason"><i class="fab fa-linkedin-in"></i></a>
+        </span>
+        <span class="spacer-social"> | </span>
+        <span class="span-social">
+          <a href="https://medium.com/@brianjason"><i class="fab fa-medium-m"></i></a>
+        </span>
+      </div>
+      <div class="bod">
+        <p class="p-upper">
+          My site will be temporarily offline during the redesign process.
+        </p>
+        <p class="p-lower">
+          I can be reached at
+          <span id="emailto" >
+            <a href="mailto:brianjason@gmail.com">brianjason@gmail.com</a>
+          </span>
+        </p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      var flame = [
+        "<span><img src=\"./img/flame1.gif\" alt=\"animated flame\"></span>",
+        "<span><img src=\"./img/flame2.gif\" alt=\"animated flame\"></span>",
+        "<span><img src=\"./img/flame3.gif\" alt=\"animated flame\"></span>"
+      ]
+
+      var flameArray = [];
+
+      for(x=0; x<49; x++) {
+        let randomNumber = Math.floor(Math.random() * 3);
+
+        flameArray.push(randomNumber);
+      }
+
+
+      var flameString = flame[0];
+
+      for(y=0; y<49; y++){
+        flameString = flameString.concat( flame[flameArray[y]] );
+      }
+
+      $( window ).on("load", function(){
+        $( "#flame" ).append( flameString );
+        $( "#flame-container" ).css('visibility', 'hidden');
+      });
+
+      $( "#myName" ).on("mouseover", function(){
+        $( "#flame-container" ).css('visibility', 'visible');
+      });
+
+      $( "#myName" ).on("mouseout", function(){
+        $( "#flame-container" ).css('visibility', 'hidden');
+      });
+
+    </script>
+  </body>
+</html>
