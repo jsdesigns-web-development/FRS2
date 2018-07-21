@@ -408,6 +408,9 @@ span.contact-icons {
   .con-card {
     display: none;
   }
+  .top-desktop-cont {
+    display: none;
+  }
   .top-cont {
     display: block;
   }
