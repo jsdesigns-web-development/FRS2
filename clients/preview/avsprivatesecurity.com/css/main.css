@@ -22,7 +22,11 @@ body html {
     }
 }
 
-
+#title-bar {
+  position: fixed;
+  top: 0;
+  transition: top 0.6s;
+}
 
 
 #services {
