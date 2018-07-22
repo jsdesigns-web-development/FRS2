@@ -371,7 +371,7 @@ span.contact-icons {
 }
 
 #copy {
-  height: 100px;
+  height: 225px;
   width: 100%;
   background-image: url("../imgs/photos/army.jpg");
   background-position: center;
@@ -386,6 +386,10 @@ span.contact-icons {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
 }
 
+#copy div {
+  padding-top: 2em;
+}
+
 #linkedin-icon {
   padding: 0px 5px 0px 5px;
   margin-left: 1em;
@@ -397,4 +401,27 @@ span.contact-icons {
 #linkedin-icon:hover {
   background-color: inherit;
   border: inherit;
+}
+
+#jsd {
+  font-weight: bold;
+  margin-right: 5em;
+  margin-bottom: 0.5em;
+  font-size: 10px;
+  color: #D3461C;
+  text-align: right;
+}
+
+#jsd a {
+  color: #D3461C;
+}
+
+#copyright {
+  font-size: 1.1em;
+  font-family: 'Play', sans-serif;
+}
+
+#tagline {
+  font-size: 1em;
+  font-family: 'Play', sans-serif;
 }
