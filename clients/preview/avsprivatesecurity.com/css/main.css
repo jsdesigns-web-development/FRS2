@@ -14,12 +14,22 @@ body html {
   transition: top 0.6s;
 }
 
+#services {
+  padding: 2em;
+  /*height: 600px;*/
+}
+
 #services a {
   color: black;
 }
+
 #services a:hover {
   color: #BF0A30;
   text-decoration: none;
+}
+
+#services h1 {
+  padding-bottom: .5em;
 }
 
 #service-page li {
@@ -42,17 +52,9 @@ body html {
   color: rgba(0,0,0, 0.6);
 }
 
-#services {
-  padding: 2em;
-  /*height: 600px;*/
-}
 #service.media {
     vertical-align: middle;
     padding-left: 5em;
-}
-
-#services h1 {
-  padding-bottom: .5em;
 }
 
 #services-description {
@@ -155,10 +157,10 @@ picture img {
   font-size: 16px;
 }
 
-  #about-pics {
-    margin-top: 3.5em;
-  }
+#about-pics {
+  margin-top: 3.5em;
 }
+
 
 .about-mike {
     color: white;
