@@ -8,26 +8,28 @@ body html {
   width: 120px;
 }
 
-#logo:hover {
-  transform: rotate(-8deg);
+#title-bar {
+  position: fixed;
+  top: 0;
+  transition: top 0.6s;
 }
 
-@media (max-width: 600px) {
-  #logo {
-    height: 8em;
-    width: 10em;
-    }
-    .media-body h5 {
-      font-size: 1.7;
-    }
+#services {
+  padding: 2em;
+  /*height: 600px;*/
 }
 
 #services a {
   color: black;
 }
+
 #services a:hover {
   color: #BF0A30;
   text-decoration: none;
+}
+
+#services h1 {
+  padding-bottom: .5em;
 }
 
 #service-page li {
@@ -50,24 +52,18 @@ body html {
   color: rgba(0,0,0, 0.6);
 }
 
-
-
-#services {
-  padding: 2em;
-  /*height: 600px;*/
-}
 #service.media {
     vertical-align: middle;
     padding-left: 5em;
 }
 
-#services h1 {
-  padding-bottom: .5em;
-}
-
 #services-description {
   font-size: 16px;
   color: black;
+}
+
+.service-item {
+
 }
 
 .media img {
@@ -91,32 +87,6 @@ body html {
 
 li.media {
   margin: 1em 0;
-}
-
-@media (min-width: 1400px) {
-  .media-body h5 {
-    font-size: 1.5em;
-  }
-}
-
-@media (min-width: 600px) {
-  .media-body h5 {
-    font-size: 1.5em;
-  }
-}
-
-@media (max-width: 600px) {
-  .media img {
-    height: 40px;
-    width: 60px;
-  }
-  li.media {
-    margin-bottom: -0.5em;
-    height: 40px;
-  }
-  .media-body h5 {
-    padding: .5em 0;
-  }
 }
 
 .media-body h5 {
@@ -151,6 +121,7 @@ picture img {
   -moz-box-shadow: 0px 2px 20px 1px rgba(255,255,255,0.5);
   box-shadow: 0px 2px 20px 1px rgba(255,255,255,0.5); */
 }
+
 #about p {
   color: white;
 }
@@ -158,6 +129,7 @@ picture img {
 #about h1 {
   color: white;
 }
+
 #about h1.display-3{
   padding-top: .5em;
 }
@@ -185,15 +157,10 @@ picture img {
   font-size: 16px;
 }
 
-@media (max-width: 600px) {
-  #about-description {
-    margin: 0em 2em 3.5em 2em;
-    font-size: 16px;
-  }
-  #about-pics {
-    margin-top: 3.5em;
-  }
+#about-pics {
+  margin-top: 3.5em;
 }
+
 
 .about-mike {
     color: white;
@@ -207,6 +174,7 @@ picture img {
  font-family: 'Play', sans-serif;
  text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.4);
 }
+
 #veteran {
  color: white;
  font-weight: 300;
@@ -218,6 +186,7 @@ picture img {
    -1px 1px 0 #000,
     1px 1px 0 #000;
 }
+
 #security {
   color: royalblue;
   font-family: 'Play', sans-serif;
@@ -234,27 +203,8 @@ picture img {
   font-weight: bold;
 }
 
-
 #title p {
   font-size: 1.5em;
-}
-
-#title
-@media (max-width: 1430px) {
-  #american, #veteran, #security {
-    font-size: .7em;
-  }
-}
-@media (max-width: 1050px) {
-  #american, #veteran, #security {
-    font-size: .5em;
-  }
-}
-
-@media (max-width: 600px) {
-  #american, #veteran, #security {
-    font-size: .9em;
-  }
 }
 
 .navbar-light .nav-item {
@@ -265,7 +215,6 @@ picture img {
 .jumbotron {
   background: none;
 }
-
 
 .contact-icons i {
   font-size: 1.2em;
@@ -280,18 +229,11 @@ span.contact-icons {
 }
 /* About us Section */
 
-
 .contact-icons a {
   color: rgba(0,0,0,0.7);
   text-decoration: underline;
   text-decoration-color: rgba(191,10,48,0.4);
   text-decoration-style: dotted;
-}
-
-@media (max-width: 600px) {
-  .contact-icons a {
-    font-size: 95%;
-  }
 }
 
 .contact-icons a:hover{
@@ -313,7 +255,6 @@ span.contact-icons {
   margin: 2em 0;
   padding: 1em 0;
 }
-
 
 #social {
   background-image: url("../imgs/sf.jpg");
@@ -346,7 +287,6 @@ span.contact-icons {
   text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
-
 .top-cont {
   height: 40px;
   width: 100%;
@@ -360,13 +300,11 @@ span.contact-icons {
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
 }
 
-
 .top-cont p{
   color: rgba(255, 255, 255, .5);
   text-align: center;
   padding-top: .5em;
 }
-
 
 .top-desktop-cont {
   height: 60px;
@@ -432,21 +370,8 @@ span.contact-icons {
   font-weight: bold;
 }
 
-@media (max-width: 1200px) {
-  .con-card {
-    display: none;
-  }
-  .top-desktop-cont {
-    display: none;
-  }
-  .top-cont {
-    display: block;
-  }
-}
-
-
 #copy {
-  height: 100px;
+  height: 225px;
   width: 100%;
   background-image: url("../imgs/photos/army.jpg");
   background-position: center;
@@ -461,6 +386,10 @@ span.contact-icons {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
 }
 
+#copy div {
+  padding-top: 2em;
+}
+
 #linkedin-icon {
   padding: 0px 5px 0px 5px;
   margin-left: 1em;
@@ -472,4 +401,27 @@ span.contact-icons {
 #linkedin-icon:hover {
   background-color: inherit;
   border: inherit;
+}
+
+#jsd {
+  font-weight: bold;
+  margin-right: 5em;
+  margin-bottom: 0.5em;
+  font-size: 10px;
+  color: #D3461C;
+  text-align: right;
+}
+
+#jsd a {
+  color: #D3461C;
+}
+
+#copyright {
+  font-size: 1.1em;
+  font-family: 'Play', sans-serif;
+}
+
+#tagline {
+  font-size: 1em;
+  font-family: 'Play', sans-serif;
 }

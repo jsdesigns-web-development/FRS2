@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <title>JSD - San Francisco</title>
+        <title>American Veteran Security | Private Security</title>
         <!-- META tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,20 +18,22 @@
         <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Paytone+One" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
-
         <!-- Custom CSS files-->
         <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/mobile.css">
+
         <script>
         // This is how we'll load header and footer from separate files
         //$(() => { $("footer").load("footer.html")});
         </script>
     </head>
     <body>
+      <div id="body-container">
       <div class="top-cont">
       <p>Call us today!<a href="tel:707-971-0659" id=:num> 707-971-0659</a></p>
       </div>
 
-      <div class="top-desktop-cont">
+      <div id="title-bar" class="top-desktop-cont">
         <div id="top-title">
           <h3>
             <span id="american">AMERICAN </span>
@@ -68,7 +70,7 @@
 
 <!-- Navbar -->
 <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light header">
       <a class="navbar-brand" href="#" ><img src="./imgs/graphics/logo.jpg" id="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -276,7 +278,7 @@
             <p class="contact-icons">
               <i class="fas fa-map-marker-alt"></i><span>&nbsp;&nbsp; &nbsp;<a href="https://goo.gl/maps/wJxrRNADCcN2" target="_blank">131 Stony Circle Ste. 500, Santa Rosa, CA 95401</a> </span> <br>
               <i class="fas fa-mobile-alt"></i><span>&nbsp;&nbsp;&nbsp;&nbsp; <a href="tel:707-971-0659" target="_blank">707-971-0659</a></span> <br>
-              <i class="far fa-envelope"></i><span>&nbsp;&nbsp; <a href="mailto:avssonoma@gmail.com" target="_blank">AVSsonoma@gmail.com</a></span>
+              <i class="far fa-envelope"></i><span>&nbsp;&nbsp; <a href="mailto:info@avsprivatesecurity.com" target="_blank">info@avsprivatesecurity.com</a></span>
 
             </p>
           </div>
@@ -310,19 +312,35 @@
 <!-- social icons -->
 
 <section id="copy">
-  <p>
-    &copy; &nbsp;<script type="text/javascript">
-      document.write(new Date().getFullYear());
-    </script>
-    &nbsp; | &nbsp; American Veteran Security
-  </p>
+  <div>
+    <p>
+      <span id="copyright">
+        &copy; &nbsp;
+        <script type="text/javascript">
+          document.write(new Date().getFullYear());
+        </script>
+        &nbsp; | &nbsp;
+          American
+          Veteran
+          Security
+      </span><br>
+      <span id="tagline">
+        Assist
+        &nbsp;&bull;&nbsp;
+        Protect
+        &nbsp;&bull;&nbsp;
+        Secure
+      </span><br>
+    </p>
+  </div>
 </section>
-
-<!-- Font awesome for social icons -->
-
+<div id="jsd">
+  Designed & Hosted by <a href="https://www.jsdesigns.site">JS Designs</a>
+</div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Bootstrap JS CDNs-->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="./js/main.js"></script>
+</div>
 </body>
 </html>

@@ -1,0 +1,83 @@
+/*  CONTAINERS  */
+@media (max-width: 1200px) {
+  .con-card {
+    display: none;
+  }
+  .top-desktop-cont {
+    display: none;
+  }
+  .top-cont {
+    display: block;
+  }
+}
+
+/*  SERVICES  */
+@media (min-width: 1400px) {
+  .media-body h5 {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 600px) {
+  .media img {
+    height: 40px;
+    width: 60px;
+  }
+  li.media {
+    margin-bottom: -0.5em;
+    height: 40px;
+  }
+  .media-body h5 {
+    padding: .5em 0;
+  }
+}
+
+@media (min-width: 600px) {
+  .media-body h5 {
+    font-size: 1.5em;
+  }
+}
+
+/*  NAVBAR  */
+@media (max-width: 600px) {
+  #logo {
+    height: 8em;
+    width: 10em;
+    }
+    .media-body h5 {
+      font-size: 1.7;
+    }
+}
+
+  /*  TITLE  */
+#title
+  @media (max-width: 1430px) {
+    #american, #veteran, #security {
+      font-size: .7em;
+    }
+  }
+  @media (max-width: 1050px) {
+    #american, #veteran, #security {
+      font-size: .5em;
+    }
+  }
+
+  @media (max-width: 600px) {
+    #american, #veteran, #security {
+      font-size: .9em;
+    }
+  }
+
+/*  ABOUT  */
+@media (max-width: 600px) {
+  #about-description {
+    margin: 0em 2em 3.5em 2em;
+    font-size: 16px;
+  }
+
+/*  CONTACT  */
+@media (max-width: 600px) {
+  .contact-icons a {
+    font-size: 95%;
+  }
+}
