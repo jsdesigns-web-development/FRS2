@@ -405,6 +405,7 @@ span.contact-icons {
 
 #jsd {
   font-weight: bold;
+  margin-top: 0.2em;
   margin-right: 5em;
   margin-bottom: 0.5em;
   font-size: 10px;
@@ -414,6 +415,10 @@ span.contact-icons {
 
 #jsd a {
   color: #D3461C;
+}
+
+#jsd a:hover {
+  color: darkgray;
 }
 
 #copyright {
