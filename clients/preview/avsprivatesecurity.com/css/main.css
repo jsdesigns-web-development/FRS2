@@ -37,7 +37,7 @@ body html {
   font-size: 2em;
   font-weight: bold;
   font-family: 'Encode Sans Semi Expanded', sans-serif;
-  padding: 1em 0 .5em 0;
+  padding: .5em 0 .5em 0;
   margin-top: .75em;
 }
 
@@ -60,6 +60,16 @@ body html {
 #services-description {
   font-size: 16px;
   color: black;
+}
+.reg-bg {
+  padding: 0em 1em 1em 1em;
+}
+
+.alt-bg {
+  background-color: whitesmoke;
+  padding: 0em 1em 1em 1em;
+  color: black;
+  font-weight: 400;
 }
 
 .service-item {
@@ -98,14 +108,14 @@ li.media {
     height: 450px;
     width: 100%;
     max-width: 100%;
-    background-image: url("../imgs/photos/img1.jpg");
+    background-image: url("../imgs/img1.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #about {
-  background-image: url("../imgs/photos/army2.jpg");
+  background-image: url("../imgs/army2.jpg");
   background-position: center center;
   background-position: center;
   background-size: cover;
@@ -115,12 +125,14 @@ li.media {
 }
 
 picture img {
-  height: 330px;
-  width: 300px;
+  /*height: 330px;
+  width: 300px;*/
+  width: 200px;
   -webkit-box-shadow: 0px 2px 20px 1px rgba(255,255,255,0.5);
   -moz-box-shadow: 0px 2px 20px 1px rgba(255,255,255,0.5);
   box-shadow: 0px 2px 20px 1px rgba(255,255,255,0.5); */
 }
+
 
 #about p {
   color: white;
@@ -159,7 +171,7 @@ picture img {
 
 
 #about-pics {
-  margin-top: 3.5em;
+  margin: 1em;
 }
 
 
@@ -168,6 +180,11 @@ picture img {
 }
 .about-mike li {
   list-style: square;
+}
+
+.about-qualifications {
+  padding: .5em .5em .5em .5em;
+  list-style-type: none;
 }
 
 #american {
@@ -374,7 +391,7 @@ span.contact-icons {
 #copy {
   height: 225px;
   width: 100%;
-  background-image: url("../imgs/photos/army.jpg");
+  background-image: url("../imgs/army.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -405,13 +422,15 @@ span.contact-icons {
 }
 
 #jsd {
+  width: 100%;
   font-weight: bold;
-  margin-top: 0.2em;
-  margin-right: 5em;
-  margin-bottom: 0.5em;
+  margin-top: 0.0em;
+  padding-right: 5em;
+  margin-bottom: 0.0em;
   font-size: 10px;
   color: #D3461C;
   text-align: right;
+  background-color: rgba(0,0,0,0.9);
 }
 
 #jsd a {
