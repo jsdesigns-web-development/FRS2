@@ -124,6 +124,15 @@ li.media {
   width: 100%;
 }
 
+div.col-md-12 {
+  margin: 1.5em 0;
+}
+
+.col-md-12,.col-md-6 ul {
+  line-height: 2em;
+}
+
+
 picture img {
   /*height: 330px;
   width: 300px;*/
@@ -264,11 +273,17 @@ span.contact-icons {
 .fab.fa-linkedin {
   color: white;
   transition: .5s;
+  background-color: #0077B5;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  vertical-align: center;
+  border-radius: .15em;
+  padding-top: .12em;
 }
 
 .fab.fa-linkedin:hover {
-  color: #0077B5;
-  transform: scale(1.7);
+  transform: scale(1.5);
 }
 /* contact us Section */
 #contact{
