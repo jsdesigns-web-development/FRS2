@@ -29,7 +29,7 @@
     </head>
     <body>
       <div id="body-container">
-      <div class="top-cont">
+      <div id="title-bar-mobile" class="top-cont" onmouseover="$(this).addClass('top-cont-hover');" onmouseout="$(this).removeClass('top-cont-hover');">
       <p>Call us today!<a href="tel:707-971-0659" id=:num> 707-971-0659</a></p>
       </div>
 
@@ -55,7 +55,7 @@
             <div class="col-md-4">
             </div>
             <div class="col-md-4">
-              <div class="con-card">
+              <div class="con-card" onmouseover="$(this).addClass('con-card-hover');" onmouseout="$(this).removeClass('con-card-hover');">
                 <p>Call Today!<br>
                   <span><a href="tel:707-971-0659" style="color: tomato;">707-971-0659</a></span>
                   <br>
@@ -220,7 +220,7 @@
     <div class="row">
       <div class="col-md-12">
         <h3>Our Guards</h3>
-          <ul>
+          <ul id="guards-qualifications">
             <li>Are licensed and finger printed through the state.</li>
             <li>Have had background checked by DOJ and FBI</li>
           </ul>
@@ -229,20 +229,20 @@
     <div class="row">
       <div class="col-md-6" style="margin-top: 3em;">
         <h3>Our Founder</h3>
-        <ul>
+        <ul id="mikes-qualifications">
           <li>A combined 13 year veteran of both the Army and Marines.</li>
           <li>Served in the Army Military Police Corps.</li>
           <li>A trained and certified Firefighter & former EMT.</li>
           <li>Operations Manager for a Private Security firm.</li>
           <li>Head of security for concert venue</li>
         </ul>
-        <div class="" style="margin-top: 3em;">
+        <div class="founder-portrait" style="margin-top: 3em;">
           <h3>Mike Arieta &nbsp; <span style="color: tomato;">|<span> &nbsp; Founder &nbsp;
             <a href="https://"> <i class="fab fa-linkedin"></i></a>
           </h3>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 founder-portrait">
         <div class="card" style="width: 18rem;">
           <img class="card-img-top" src="./imgs/mike.jpg" alt="Mike Arieta" >
         </div>
@@ -258,9 +258,9 @@
       <div class="col-md-6">
           <div class="jumbotron">
             <h1 class="display-3" style="padding-bottom: .5em;">Contact Us</h1>
-            <p class="contact-icons">
-              <i class="fas fa-map-marker-alt"></i><span>&nbsp;&nbsp; &nbsp;<a href="https://goo.gl/maps/wJxrRNADCcN2" target="_blank">131 Stony Circle Ste. 500, Santa Rosa, CA 95401</a> </span> <br>
-              <i class="fas fa-mobile-alt"></i><span>&nbsp;&nbsp;&nbsp;&nbsp; <a href="tel:707-971-0659" target="_blank">707-971-0659</a></span> <br>
+            <p class="contact-icons" id="contact-details">
+              <i class="fas fa-map-marker-alt"></i><span id="address-street">&nbsp;&nbsp; &nbsp;<a href="https://goo.gl/maps/wJxrRNADCcN2" target="_blank">131 Stony Circle Ste. 500, </span><span id="address-city">Santa Rosa, CA 95401</a> </span> <br>
+              <i class="fas fa-mobile-alt"></i><span id="phone-number">&nbsp;&nbsp;&nbsp;&nbsp; <a href="tel:707-971-0659" target="_blank">707-971-0659</a></span> <br>
               <i class="far fa-envelope"></i><span>&nbsp;&nbsp; <a href="mailto:info@avsprivatesecurity.com" target="_blank">info@avsprivatesecurity.com</a></span>
 
             </p>

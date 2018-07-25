@@ -9,6 +9,9 @@
   .top-cont {
     display: block;
   }
+  #jsd {
+    text-align: center;
+  }
 }
 
 /*  SERVICES  */
@@ -89,10 +92,28 @@
   #contact h1 {
     font-size: 4em;
   }
+  #contact-details {
+    padding-left: 2em;
+  }
   #about h1 {
     font-size: 4em;
   }
   #services h1 {
     font-size: 4em;
+  }
+  #address-city {
+    white-space: nowrap;
+    margin-left: 2em;
+  }
+}
+
+@media (max-width: 550px) {
+  #mikes-qualifications,
+  #guards-qualifications {
+    margin-left: -1.5em;
+    font-size: smaller;
+  }
+  .founder-portrait {
+    margin-left: 1em;
   }
 }
