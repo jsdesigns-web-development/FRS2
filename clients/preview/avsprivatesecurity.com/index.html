@@ -206,15 +206,15 @@
 
 <!-- background Space -->
 <section id="about">
-  <div class="container">
+  <div class="container-fluid">
     <h1 class="display-3">About Us</h1>
     <div id="about-description">American Veteran Security is backed by the unparalelled expertise.
       Our founder, Mike Arieta, is a veteran of both the Army and the Marines.
       A retired Military Police Officer, Mike has built a disciplined team of armed and unarmed
       personell to provide you with the highest level of security.
     </div>
-    <div class="media media-fix">
-      <div class="media-body">
+    <div class="media media-fix col col-5">
+      <div class="media-body col">
         <h5 class="mt-0 mb-1">Our Guards</h5>
         <ul>
           <li class="text-white about-qualifications" style="list-style-type: none;"><i class="fas fa-check"></i>&nbsp;&nbsp; Are licensed and finger printed through the state.</li>
@@ -226,30 +226,60 @@
       &nbsp;
     </div>
     <div class="">
-      <div class="media media-fix">
+      <div class="media media-fix col col-5">
         <div class="media-body">
           <h5 class="mt-0 mb-1">Our Founder</h5>
-          <ul class="list-styled" style="padding-left: 4.5em;">
-            <li class="text-white about-qualifications">A combined 13 year veteran of both the Army and Marines.</li>
-            <li class="text-white about-qualifications">Served in the Army Military Police Corps.</li>
-            <li class="text-white about-qualifications">A trained and certified Firefighter & former EMT.</li>
-            <li class="text-white about-qualifications">Operations Manager for a Private Security firm.</li>
-            <li class="text-white about-qualifications">Head of security for concert venue</li>
-          </ul>
+          <div class="row">
+            <div class="col col-auto">
+              <span>
+                <ul class="list-styled" style="padding-left: 4.5em;">
+                  <li class="text-white about-qualifications">A combined 13 year veteran of both the Army and Marines.</li>
+                  <li class="text-white about-qualifications">Served in the Army Military Police Corps.</li>
+                  <li class="text-white about-qualifications">A trained and certified Firefighter & former EMT.</li>
+                  <li class="text-white about-qualifications">Operations Manager for a Private Security firm.</li>
+                  <li class="text-white about-qualifications">Head of security for concert venue</li>
+                </ul>
+              </span>
+              <span>
+                <div class="align-self-center military-pics">
+                  <div class="col" id="about-pics" style="display:inline;">
+                    <div id="marines-pic">
+                      <img src="./imgs/mikemarine.jpg" alt="">
+                    </div>
+
+                    <div id="army-pic">
+                      <img src="./imgs/mpphoto.jpg" alt="">
+                    </div>
+
+                    <div id="mp-pic">
+                      <img src="./imgs/mp.png" alt="">
+                    </div>
+                  </div>
+              </span>
+            </div>
+
+          </div>
+
         </div>
-        <div class="align-self-end">
-          <picture>
-            <img src="./imgs/mike.jpg" alt="professional portrait of mike arieta">
-          </picture>
-          <h4 style="text-align: center;">
-            <span style="font-size: 1em; font-weight: bold;">Mike Arieta</span>
-            <span style="color: #BF0A30;">&nbsp;CEO</span>
-            <!--span id="linkedin-icon">
-            <a href="https://www.linkedin.com/in/mike-arieta-2a1181bb/" target="_blank">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </span-->
-          </h4>
+
+        </div>
+        <div class="row" style="height: 100%; margin-top: 2em; display: inline;">
+          <div class="col col-auto">
+            <div class="portrait-container">
+              <div class="">
+                <picture>
+                  <img src="./imgs/mike.jpg" alt="professional portrait of mike arieta">
+                </picture>
+              </div>
+              <div class="">
+                <h4>
+                  <span style="font-size: 1em; font-weight: bold;">Mike Arieta</span>
+                  <span style="color: #BF0A30;">&nbsp;CEO</span>
+                    <!--span id="linkedin-icon"><a href="https://www.linkedin.com/in/mike-arieta-2a1181bb/" target="_blank"><i class="fab fa-linkedin"></i></a></span-->
+                </h4>
+              </div>
+            </div>
+          </div>
         </div>
 
       </div>
