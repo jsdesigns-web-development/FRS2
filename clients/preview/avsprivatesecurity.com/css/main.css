@@ -61,6 +61,7 @@ body html {
   font-size: 16px;
   color: black;
 }
+
 .reg-bg {
   padding: 0em 1em 1em 1em;
 }
@@ -122,6 +123,7 @@ li.media {
   background-repeat: no-repeat;
   height: auto;
   width: 100%;
+  padding: 2em;
 }
 
 div.col-md-12 {

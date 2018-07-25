@@ -79,9 +79,11 @@
 
 /*  ABOUT  */
 @media (max-width: 600px) {
-  #about-description {
+  #about-description,
+  #services-description {
     margin: 0em 2em 3.5em 2em;
     font-size: 16px;
+    text-align: justify;
   }
 
 /*  CONTACT  */
@@ -111,9 +113,9 @@
   #mikes-qualifications,
   #guards-qualifications {
     margin-left: -1.5em;
-    font-size: smaller;
+    /*font-size: smaller;*/
   }
   .founder-portrait {
-    margin-left: 1em;
+    margin-left: .5em;
   }
 }
