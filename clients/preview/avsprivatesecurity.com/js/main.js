@@ -12,3 +12,7 @@ var currentScrollPos = window.pageYOffset;
   }
   prevScrollpos = currentScrollPos;
 }
+
+function goHome() {
+  window.scrollTo(0, 375);
+}

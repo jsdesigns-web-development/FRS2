@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
     <head>
-        <title>American Veteran Security | Home</title>
-        <!-- META tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>American Veteran Security | Private Security</title>
+        <link rel="shortcut icon" href="./imgs/favicon.ico" />
+
+        <meta name="description" content="American Veteran Security is backed by
+        the unparalelled expertise and experience. Our professional and vigilant
+        security guards will not rest until your residence, office, event or VIP
+        is safe and secure." />
+        <meta name="keywords" content="security, guard, security guard, bodyguard,
+        private security, firewatch, event security, sonoma county, santa rosa,
+        mike arieta, veteran, military service" />
+
+        <meta name="robots" content="all" />
+        <meta rel="canonical" href="https://avsprivatesecurity.com" />
+        <meta name="theme-color" content="black" />
+
+        <link rel="preload" href="./css/main.css" as="style" />
+        <link rel="preload" href="./css/mobile.css" as="style" />
+        <link rel="preload" href="./js/main.js" as="script" />
+        <link rel="preload" href="./js/main.js" as="script" />
+
+
         <!-- jQuery -->
         <script
           src="https://code.jquery.com/jquery-3.2.1.min.js"
@@ -71,7 +91,7 @@
 <!-- Navbar -->
 <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light header">
-      <a class="navbar-brand" href="#" ><img src="./imgs/logo.jpg" id="logo"></a>
+      <img src="./imgs/logo.jpg" id="logo" onclick="goHome()" alt="American Veteran Security Logo">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -100,10 +120,10 @@
 <section id="services">
 
   <div class="container-fluid">
-    <h1 class="display-3">What is Security?</h1>
+    <h1 class="display-3">Private Security</h1>
     <p id="services-description" style="font-size: 1.25em;">
       It means being free to live your life without worry. Our vigilant, professional
-      security officers will not rest until your residence, office, event or VIP
+      security guards will not rest until your residence, office, event or VIP
       is safe and secure. We are equipped to protect your most valuable
       people and property. Here are some of the security services we provide:
     </p>
@@ -112,7 +132,7 @@
         <ul class="list-unstyled">
           <a href="./services.html#residential">
           <li class="media">
-            <img class="align-self-center mr-3" src="./imgs/services/residential.jpg" alt="Residential">
+            <img class="align-self-center mr-3" src="./imgs/services/residential.jpg" alt="Residential Security">
             <div class="media-body">
               <h5 class="mt-0 mb-1">Residential</h5>
             </div>
@@ -120,7 +140,7 @@
         </a>
           <a href="./services.html#commercial">
           <li class="media">
-            <img class="mr-3" src="./imgs/services/commercial.jpg" alt="Commercial">
+            <img class="mr-3" src="./imgs/services/commercial.jpg" alt="Commercial Security">
             <div class="media-body">
               <h5 class="mt-0 mb-1">Commercial</h5>
             </div>
@@ -128,7 +148,7 @@
         </a>
           <a href="./services.html#government">
           <li class="media">
-            <img class="mr-3" src="./imgs/services/government.jpg" alt="Government">
+            <img class="mr-3" src="./imgs/services/government.jpg" alt="Government Security">
             <div class="media-body">
               <h5 class="mt-0 mb-1">Government</h5>
             </div>
@@ -150,7 +170,7 @@
         <ul class="list-unstyled">
           <a href="./services.html#wineries">
           <li class="media">
-            <img class="mr-3" src="./imgs/services/wineries.jpg" alt="Wineries">
+            <img class="mr-3" src="./imgs/services/wineries.jpg" alt="Winery Security">
             <div class="media-body">
               <h5 class="mt-0 mb-1">Wineries</h5>
             </div>
@@ -158,7 +178,7 @@
         </a>
           <a href="./services.html#schools">
           <li class="media">
-            <img class="mr-3" src="./imgs/services/school.jpg" alt="Schools">
+            <img class="mr-3" src="./imgs/services/school.jpg" alt="School Security">
             <div class="media-body">
               <h5 class="mt-0 mb-1">Schools</h5>
             </div>
@@ -166,7 +186,7 @@
         </a>
           <a href="./services.html#events">
           <li class="media">
-            <img class="mr-3" src="./imgs/services/events.jpg" alt="Events">
+            <img class="mr-3" src="./imgs/services/events.jpg" alt="Event Security">
             <div class="media-body">
               <h5 class="mt-0 mb-1">Events</h5>
             </div>
@@ -178,7 +198,7 @@
         <ul class="list-unstyled">
           <a href="./services.html#cannabis">
           <li class="media">
-            <img class="mr-3" src="./imgs/services/cannabis.jpg" alt="Cannabis Dispensaries">
+            <img class="mr-3" src="./imgs/services/cannabis.jpg" alt="Cannabis Dispensary Security">
             <div class="media-body">
               <h5 class="mt-0 mb-1">Cannabis Dispensaries</h5>
             </div>
@@ -186,7 +206,7 @@
         </a>
           <a href="./services.html#hospital">
           <li class="media">
-            <img class="mr-3" src="./imgs/services/hospital.jpg" alt="Clinics & Hospitals">
+            <img class="mr-3" src="./imgs/services/hospital.jpg" alt="Clinics & Hospitals Security">
             <div class="media-body">
               <h5 class="mt-0 mb-1">Clinics & Hospitals</h5>
             </div>
@@ -194,7 +214,7 @@
         </a>
           <a href="./services.html#bodyguard">
             <li class="media">
-            <img class="mr-3" src="./imgs/services/bodyguard.png" alt="Body Guards">
+            <img class="mr-3" src="./imgs/services/bodyguard.png" alt="Body Guards and VIP Security">
             <div class="media-body">
               <h5 class="mt-0 mb-1">Body Guards</h5>
             </div>
@@ -247,7 +267,7 @@
       </div>
       <div class="col-md-6 founder-portrait">
         <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="./imgs/mike.jpg" alt="Mike Arieta" >
+          <img class="card-img-top" src="./imgs/mike.jpg" alt="Portrait of Mike Arieta" >
         </div>
       </div>
     </div>
@@ -324,9 +344,9 @@
   Designed & Hosted by <a href="https://www.jsdesigns.site" target="_blank">JS Designs</a>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-<script src="./js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="./js/main.js"></script>
 </div>
 </body>
 </html>
