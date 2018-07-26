@@ -25,6 +25,12 @@
   .mt-0.mb-1 {
     font-size: 1em;
   }
+  .founder-portrait h3{
+    font-size: 20px;
+  }
+  .founder-portrait i{
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 600px) {
