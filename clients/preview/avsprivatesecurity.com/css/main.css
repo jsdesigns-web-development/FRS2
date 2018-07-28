@@ -8,7 +8,7 @@ body html {
   width: 120px;
 }
 
-#title-bar {
+#title-bar, #title-bar-mobile {
   position: fixed;
   top: 0;
   transition: top 0.6s;
@@ -61,6 +61,7 @@ body html {
   font-size: 16px;
   color: black;
 }
+
 .reg-bg {
   padding: 0em 1em 1em 1em;
 }
@@ -122,6 +123,7 @@ li.media {
   background-repeat: no-repeat;
   height: auto;
   width: 100%;
+  padding: 2em;
 }
 
 div.col-md-12 {
@@ -363,10 +365,18 @@ span.contact-icons {
   display: block;
 }
 
+.top-cont {
+  font-weight: bold;
+}
+
 .top-cont a:hover{
   color:inherit;
   color: white;
   text-decoration: none;
+}
+
+.top-cont-hover {
+  opacity: 0.8;
 }
 
 #top-subtitle {
@@ -401,6 +411,10 @@ span.contact-icons {
 .con-card span {
   font-size: 35px;
   font-weight: bold;
+}
+
+.con-card-hover {
+  background: rgba(0, 0, 0, 0.75);
 }
 
 #copy {
