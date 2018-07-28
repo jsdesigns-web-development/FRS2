@@ -31,6 +31,14 @@
   .founder-portrait i{
     font-size: 24px;
   }
+  #about h3 {
+    font-size: 1em;
+  }
+  .fab.fa-linkedin {
+    padding-top: .12em;
+    height: 25px;
+    width: 25px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -88,9 +96,13 @@
   #about-description,
   #services-description {
     margin: 0em 0em 3.5em 0em;
-    font-size: 16px;
+    font-size: 14px;
     text-align: justify;
+  } #about h3 {
+    font-size: 1.5em;
   }
+}
+
 
 /*  CONTACT  */
 @media (max-width: 600px) {
@@ -121,7 +133,7 @@
     margin-left: -1.5em;
     /*font-size: smaller;*/
   }
-  .founder-portrait {
-    margin-left: .5em;
+  .fab.fa-linkedin {
+    padding-top: .12em;
   }
 }
