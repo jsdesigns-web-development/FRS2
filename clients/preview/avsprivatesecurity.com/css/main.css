@@ -71,6 +71,8 @@ body html {
   padding: 0em 1em 1em 1em;
   color: black;
   font-weight: 400;
+  border-radius: 1.5em;
+
 }
 
 .service-item {
