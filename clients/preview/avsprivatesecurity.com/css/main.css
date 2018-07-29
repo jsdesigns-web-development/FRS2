@@ -420,7 +420,7 @@ span.contact-icons {
 }
 
 #copy {
-  height: 225px;
+  height: 265px;
   width: 100%;
   background-image: url("../imgs/army.jpg");
   background-position: center;
@@ -514,7 +514,6 @@ span.contact-icons {
   border-radius: 1em;
 }
 
-
 #mp-pic img {
   height: auto;
   text-align: center;
@@ -532,8 +531,8 @@ span.contact-icons {
 }
 
 #mp-pic {
-  margin-top: 1em;
   display: inline;
+  margin-top: 1em;
 
 }
 
@@ -543,16 +542,15 @@ span.contact-icons {
   margin-left: 5em;
 }
 
-.portrait-container img{
+.portrait-container img,
+.portrait-container h4 {
   margin-bottom: 1em;
 }
 
-.portrait-container h4{
-  margin-bottom: 1em;
-}
-
-
-#footer-nav a {
+#footer-nav,
+#footer-nav a,
+#home-link-nav,
+#home-link-nav:hover {
   color: gray;
 }
 
@@ -561,13 +559,8 @@ span.contact-icons {
   padding-right: .25em;
 }
 
-#home-link-nav {
-  color: gray;
-}
-
-#home-link-nav:hover{
+#home-link-nav:hover {
   text-decoration: underline;
   cursor: pointer;
-  color: gray;
 
 }
