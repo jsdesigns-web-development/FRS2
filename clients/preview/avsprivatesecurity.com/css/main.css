@@ -550,3 +550,24 @@ span.contact-icons {
 .portrait-container h4{
   margin-bottom: 1em;
 }
+
+
+#footer-nav a {
+  color: gray;
+}
+
+#footer-nav span {
+  padding-left: .25em;
+  padding-right: .25em;
+}
+
+#home-link-nav {
+  color: gray;
+}
+
+#home-link-nav:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  color: gray;
+
+}

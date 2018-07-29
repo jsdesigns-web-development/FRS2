@@ -1,3 +1,14 @@
+var getPath = function () {
+  let pathName = window.location.pathname;
+  let pathArray = pathName.split('/');
+
+  return pathArray[pathArray.length-1];
+};
+
+if ( getPath() == "index.html" && sessionStorage.getItem("currentPath") == "index.html") {
+  window.scrollTo(0, 375);
+}
+
 //  hide/show title bar on scroll
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
@@ -14,5 +25,7 @@ var currentScrollPos = window.pageYOffset;
 }
 
 function goHome() {
-  window.scrollTo(0, 375);
+  let thisPath = getPath();
+  sessionStorage.setItem("currentPath", thisPath);
+  window.location.assign("./index.html");
 }
