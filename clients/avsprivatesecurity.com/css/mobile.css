@@ -125,6 +125,13 @@
     white-space: nowrap;
     margin-left: 2em;
   }
+  #footer-nav,
+  #footer-nav a,
+  #home-link-nav,
+  #home-link-nav:hover {
+    color: darkgray;
+    font-weight: bold;
+  }
 }
 
 @media (max-width: 550px) {
