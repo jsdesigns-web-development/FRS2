@@ -1,4 +1,4 @@
 User-Agent: *
-Disallow: 
+Disallow:
 
-Sitemap: https://www.avsprivatesecurity.com/sitemap.html
+Sitemap: https://www.avsprivatesecurity.com/sitemap_location.html
