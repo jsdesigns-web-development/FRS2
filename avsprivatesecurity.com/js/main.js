@@ -27,5 +27,5 @@ var currentScrollPos = window.pageYOffset;
 function goHome() {
   let thisPath = getPath();
   sessionStorage.setItem("currentPath", thisPath);
-  window.location.assign("./index.html");
+  window.location.assign("https://avsprivatesecurity.com");
 }
