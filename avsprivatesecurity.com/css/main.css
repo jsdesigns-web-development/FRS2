@@ -575,6 +575,11 @@ span.contact-icons {
 }
 
 #embedded_map {
-  margin: 0;  
+  margin: 0;
   padding: 0;
+}
+
+.mike-imgs {
+  max-width: 300px;
+  margin:0 auto;
 }
