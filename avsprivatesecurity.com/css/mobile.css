@@ -31,7 +31,7 @@
   .founder-portrait i{
     font-size: 24px;
   }
-  #about h3 {
+  #about h2 {
     font-size: 1em;
   }
   .fab.fa-linkedin {
@@ -102,7 +102,7 @@
     margin: 0em 0em 3.5em 0em;
     font-size: 14px;
     text-align: justify;
-  } #about h3 {
+  } #about h2 {
     font-size: 1.5em;
   }
 }

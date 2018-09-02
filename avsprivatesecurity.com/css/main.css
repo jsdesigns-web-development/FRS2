@@ -364,10 +364,10 @@ span.contact-icons {
   line-height: 0.1;
 }
 
-.top-desktop-cont h3{
+.top-desktop-cont h2{
   color: rgba(255, 255, 255, .5);
   text-align: left;
-  padding-top: .15em;
+  padding-top: 0em;
   padding-left: 1em;
   display: block;
 }
