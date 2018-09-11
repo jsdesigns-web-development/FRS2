@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>404 - page not found</title>
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Special Elite', cursive;
+        background-color: black;
+      }
+      .container {
+        margin: 0 auto;
+        width:90vw;
+        height:75vh;
+      }
+      .header {
+        text-align: center;
+        color: white;
+        margin: 0em 0em 5em 0em;
+      }
+      .header > h1 {
+        font-size: 5em;
+      }
+      .footer > h2 {
+        text-align: center;
+        color: white;
+        margin: -1.5em 1em 0em 1em;
+        font-size: 2.5em;
+      }
+      .cat {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+      }
+      @media screen and (max-width: 912px) {
+        .header > h1 {
+          font-size: 3.5em;
+          margin-top: 1em;
+        }
+        #cat-img {
+          width: 75%;
+          height: 75%;
+        }
+      }
+      @media screen and (max-height: 621px) {
+        .header > h1 {
+          font-size: 3em;
+          margin-top: 1em;
+        }
+        .cat {
+          width: 50vw;
+          height: 50vh;
+        }
+        #cat-img {
+          width: inherit;
+          height: inherit;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+    <div class="header">
+      <h1>404 | Page Not Found</h1>
+    </div>
+    <div class="cat">
+      <a href="https://brianjason.me">
+        <img id="cat-img" src="./img/404cat.jpg" title="angry cat" alt="a gray cat with an angry look on its face">
+      </a>
+    </div>
+    <div class="footer">
+      <h2>Hey bub, I suggest you go back the way you came.</h2>
+    </div>
+
+    </div>
+  </body>
+</html>
