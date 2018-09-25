@@ -583,3 +583,29 @@ span.contact-icons {
   max-width: 300px;
   margin:0 auto;
 }
+
+.enclosure-description {
+  margin-bottom: 1em;
+}
+
+.enclosure-services {
+  margin-top: 2em;
+}
+
+.svc-padding {
+  padding: 1.5em 1.75em 1.5em 1.75em;
+}
+
+.svc-margin {
+  margin-top: 2em;
+}
+
+.svc-section-spacer {
+  height: 1.25em;
+}
+
+@media (min-width: 1159px) {
+  .enclosure-services {
+    margin-top: 3em;
+  }
+}
