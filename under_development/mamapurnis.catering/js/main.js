@@ -49,9 +49,13 @@ $('#pickdate').datepicker({
 $('#menu-items, #home').onePageNav();
 
 
+
+
+
 /* ---------------------------------------------- /*
          * Google Map
 /* ---------------------------------------------- */
+/*
 // When the window has finished loading create our google map below
 google.maps.event.addDomListener(window, 'load', init);
 
@@ -67,9 +71,9 @@ function init() {
         scaleControl: false,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(40.6700, -73.9400), // New York
+        center: new google.maps.LatLng(37.969658,-122.0089981), // New York
 
-        // How you would like to style the map. 
+        // How you would like to style the map.
         // This is where you would paste any style found on Snazzy Maps.
         styles: [{
             "featureType": "administrative",
@@ -316,7 +320,7 @@ function init() {
         }]
     };
 
-    // Get the HTML DOM element that will contain your map 
+    // Get the HTML DOM element that will contain your map
     // We are using a div with id="map" seen below in the <body>
     var mapElement = document.getElementById('map');
 
@@ -325,9 +329,10 @@ function init() {
 
     // Let's also add a marker while we're at it
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(40.6700, -73.9400),
+        position: new google.maps.LatLng(37.969658, -122.0089981),
         map: map,
         title: 'Snazzy!'
     });
 
 }
+*/
