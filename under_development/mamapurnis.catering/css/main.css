@@ -163,7 +163,11 @@ h2 {
 
 .main-menu {
     box-shadow: none;
-    background: #131312;
+    background: rgb(0,0,0);
+    background: -webkit-linear-gradient(rgba(0,0,0,1) 0%, rgba(105,63,21,1) 0%, rgba(168,101,34,1) 0%, rgba(165,99,33,1) 0%, rgba(255,153,51,1) 100%);
+    background: -moz-linear-gradient(rgba(0,0,0,1) 0%, rgba(105,63,21,1) 0%, rgba(168,101,34,1) 0%, rgba(165,99,33,1) 0%, rgba(255,153,51,1) 100%);
+    background: -o-linear-gradient(rgba(0,0,0,1) 0%, rgba(105,63,21,1) 0%, rgba(168,101,34,1) 0%, rgba(165,99,33,1) 0%, rgba(255,153,51,1) 100%);
+    background: linear-gradient(rgba(0,0,0,1) 0%, rgba(105,63,21,1) 0%, rgba(168,101,34,1) 0%, rgba(165,99,33,1) 0%, rgba(255,153,51,1) 100%);
 }
 
 .menu-items{
@@ -176,10 +180,11 @@ h2 {
 
 .pushy a{
     border:none;
+    color: black;
 }
 
 .pushy a:hover {
-    background: none;
+    background: black;
 }
 
 .main-menu li a {
@@ -584,14 +589,14 @@ figure.item:hover img {
 }
 
 
-/* Blog Section
+/* Services Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-#blog {
+#services {
     padding: 50px 0;
     color: #fff;
 }
 
-#blog h2 {
+#services h2 {
     text-align: center;
     margin-bottom: 50px;
 }
