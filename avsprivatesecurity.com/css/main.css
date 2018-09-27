@@ -14,21 +14,21 @@ body html {
   transition: top 0.6s;
 }
 
-#services {
+#services-section {
   padding: 2em;
   /*height: 600px;*/
 }
 
-#services a {
+#services-section a {
   color: black;
 }
 
-#services a:hover {
+#services-section a:hover {
   color: #BF0A30;
   text-decoration: none;
 }
 
-#services h2 {
+#services-section h2 {
   padding-bottom: .5em;
 }
 
@@ -614,6 +614,7 @@ span.contact-icons {
   position: relative;
   min-height: 400px;
   padding: 2em 0;
+  background-color: black;
   background: rgb(0,0,0);
   background: rgb(135,52,38);
   background: linear-gradient(180deg, rgba(135,52,38,1) 0%, rgba(196,76,55,1) 1%, rgba(255,99,71,1) 100%);
@@ -670,4 +671,25 @@ a .list-group-item {
 
 .service-area-main {
   min-height: 800px;
+}
+
+.city li {
+  text-align: center;
+  width: 200px;
+  padding: 0.25em 0.5em 0.25em 0.5em;
+  border-radius:4px;
+}
+
+.city a {
+  text-decoration: none;
+  margin-bottom: 10px;
+  width: 200px;
+  /*background: rgb(135,52,38);
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(135,52,38,1) 0%, rgba(196,76,55,1) 1%, rgba(255,99,71,1) 100%);
+  */
+}
+
+.bg-royalblue {
+  background-color: royalblue;
 }
