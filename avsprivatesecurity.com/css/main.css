@@ -671,3 +671,8 @@ a .list-group-item {
 .service-area-main {
   min-height: 800px;
 }
+
+
+.form-group label {
+  color: black;
+}
