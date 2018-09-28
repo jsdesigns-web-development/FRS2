@@ -682,25 +682,24 @@ a .list-group-item {
   color: rgba(0,0,0,0.7);
 }
 
-.city li {
+.cities-card {
+  margin-top: 40px;
+}
+
+.cities {
   text-align: center;
-  width: 200px;
-  padding: 0.25em 0.5em 0.25em 0.5em;
-  border-radius:4px;
+  font-size: 130%;
 }
 
-.city a {
+.city-shrink {
+  font-size: 210%;
+}
+.cities a {
+  color: white;
+  transition: all ease-in .3s;
+}
+
+.cities a:hover {
   text-decoration: none;
-  margin-bottom: 10px;
-  width: 200px;
-  border-radius:4px;
-
-  /*background: rgb(135,52,38);
-  background: rgb(0,0,0);
-  background: linear-gradient(180deg, rgba(135,52,38,1) 0%, rgba(196,76,55,1) 1%, rgba(255,99,71,1) 100%);
-  */
-}
-
-.bg-royalblue {
-  background-color: royalblue;
+  color: rgba(0,0,0,0.5);
 }
