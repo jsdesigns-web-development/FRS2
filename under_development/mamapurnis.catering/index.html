@@ -104,7 +104,7 @@
                         <h2>Mama Purni's Catering</h2>
                         <!--p>Northern Indian Cuisine</p-->
                         <p>Delicious</p>
-                        <a href="#reservation" class="smooth-scroll btn btn-primary btn-sm">Delicious</a>
+                        <!--<a href="#reservation" class="smooth-scroll btn btn-primary btn-sm">Delicious</a>-->
                     </div>
                 </li>
 
@@ -115,7 +115,7 @@
                         <h2>Mama Purni's Catering</h2>
                         <!--p>Afghan Cuisine</p-->
                         <p>Authentic</p>
-                        <a href="#reservation" class="btn btn-primary btn-sm">Authentic</a>
+                        <!--<a href="#reservation" class="btn btn-primary btn-sm">Authentic</a>-->
                     </div>
                 </li>
 
@@ -126,7 +126,7 @@
                         <h2>Mama Purni's Catering</h2>
                         <!--p>American Barbecue</p-->
                         <p>Made with Love</p>
-                        <a href="#reservation" class="btn btn-primary btn-sm">Made with Love</a>
+                        <!--<a href="#reservation" class="btn btn-primary btn-sm">Made with Love</a>-->
                     </div>
                 </li>
                 <!-- Slide 4 -->
@@ -136,7 +136,7 @@
                         <h2>Mama Purni's Catering</h2>
                         <!--p>Indian Barbecue</p-->
                         <p>Call For Catering</p>
-                        <a href="#reservation" class="btn btn-primary btn-sm">Call For Catering</a>
+                        <!--<a href="#reservation" class="btn btn-primary btn-sm">Call For Catering</a>-->
                     </div>
                 </li>
             </ul>
@@ -800,17 +800,48 @@
 
         <!-- Contact section starts -->
         <section id="contact">
-            <div id="map_section" class="hidden-xs">
-              <img src="images/map_bg.jpg" width="100%" height="500px">
-            </div>
+            
             <div class="container">
-                <div class="contact-details">
-                    <h2>Contact</h2>
-                    <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc.</p>
-                    <div class="contact-phone"><i class="icon icon-phone"></i> (925) 323-1950</div>
-                    <div class="contact-email"><i class="icon icon-envelope"></i> info@mamapurnis.catering</div>
-                    <div class="contact-addresss"><i class="icon icon-office"></i> 3600 Clayton Rd, Suite C1, Concord, CA 94521</div>
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="contact-details shadow">
+                            <h2>Contact</h2>
+                            <p>If you have any questions, please reach us by any of the following</p>
+                            <div class="contact-phone"><a href="tel:925-323-1950">(925) 323-1950</a></div>
+                            <div class="contact-email"><a href="mailto:info@mamapurnis.catering">info@mamapurnis.catering</a></div>
+                            <div class="contact-addresss"><a href="https://www.google.com/maps/place/3600+Clayton+Rd,+Concord,+CA+94521/@37.9696622,-122.0111868,17z/data=!3m1!4b1!4m5!3m4!1s0x808560b3ee191e49:0x473f3f63dcadb010!8m2!3d37.969658!4d-122.0089981">3600 Clayton Rd, Suite C1, Concord, CA 94521</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="contact-card">
+                            <form method="POST" action="https://formspree.io/contact_form@avsprivatesecurity.com">
+                                <div class="form-group">
+                                  <label for="name">Name<span style="color: #ff9933;"> *</span></label>
+                                  <input type="text" class="form-control" name="name" placeholder="First & Last Name" required>
+                
+                                </div>
+                                <div class="form-group">
+                                  <label for="email">Email<span style="color: #ff9933;"> *</span></label>
+                                  <input type="email" class="form-control" name="email" placeholder="info@example.com" required>
+                                </div>
+                
+                                <div class="form-group">
+                                  <label for="phone">Phone</label>
+                                  <input type="tel" class="form-control" name="phone" placeholder="(555) 555-5555"/>
+                                </div>
+                
+                                <div class="form-group">
+                                  <label for="message">Message<span style="color:#ff9933;"> *</span></label>
+                                  <textarea type="text" class="form-control" name="message" placeholder="" rows="5" cols="80" required></textarea>
+                                </div>
+                                <input type="hidden" name="_subject" value="[ avsprivatesecurity.com ] Contact Form Message" />
+                                <input type="text" name="_gotcha" style="display:none" />
+                                <input type="submit" name="submit" value="Send" class="btn btn-outline-dark">
+                            </form>
+                        </div>
+                    </div>
                 </div>
+                
             </div>
         </section> <!-- Contact section ends -->
 

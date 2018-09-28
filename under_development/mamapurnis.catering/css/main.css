@@ -366,6 +366,7 @@ h2 {
     width: 100%;
     color: #fff;
     padding: 0 25px;
+    background: rgba(0,0,0, 0.7) !important;
 }
 
 #home p {
@@ -776,18 +777,45 @@ figure.item:hover img {
 
 #contact {
     position: relative;
+    height: 500px;
 }
 
+.contact-card {
+    margin-top: 40px;
+}
 .contact-details {
     width: 420px;
     position: absolute;
     top: 0;
     background: #fff;
-    border: #C7C7C7 2px solid;
     padding: 25px;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
+.contact-details a {
+    color: #ff33ff;
+}
+
+.form-control:focus {
+    border-color: #ff9933 !important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255,153,51,.6)
+}
+
+.btn-outline-dark {
+    background: none;
+    border: 2px solid #ff9933;
+    transition: ease-in-out all .2s;
+}
+
+.btn-outline-dark:hover {
+    background: #ff9933;
+    color: white;
+}
+
+.contact-details a:hover {
+    color: #3333ff;
+    text-decoration: none;
+}
 .contact-details h2 {
     margin: 0;
 }
