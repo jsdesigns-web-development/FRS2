@@ -65,11 +65,14 @@ p {
 }
 
 h2 {
+  font-size: 50px;
+  display: block;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+h2, h3 {
     font-family: GreatVibes-Regular;
-    font-size: 50px;
-    display: block;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
     color: #ff9933 !important;
 }
 
