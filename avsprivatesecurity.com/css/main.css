@@ -676,3 +676,7 @@ a .list-group-item {
 .form-group label {
   color: black;
 }
+
+#what-is-security {
+  color: rgba(0,0,0,0.7);
+}
