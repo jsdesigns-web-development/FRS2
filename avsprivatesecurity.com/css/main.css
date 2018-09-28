@@ -693,6 +693,8 @@ a .list-group-item {
   text-decoration: none;
   margin-bottom: 10px;
   width: 200px;
+  border-radius:4px;
+
   /*background: rgb(135,52,38);
   background: rgb(0,0,0);
   background: linear-gradient(180deg, rgba(135,52,38,1) 0%, rgba(196,76,55,1) 1%, rgba(255,99,71,1) 100%);
