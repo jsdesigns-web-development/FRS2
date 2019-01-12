@@ -936,3 +936,39 @@ footer p {
 .f-n{
     float: none;
 }
+
+
+/* Events page CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#events {
+  height: 200px;
+  width: 100%;
+  background: black;
+}
+
+#events h2 {
+  text-align: center;
+  margin-top: 1.5em !important;
+}
+
+#meals-delivered {
+  height: 200px;
+  width: 100%;
+  background: black;
+}
+
+#meals-delivered h2 {
+  text-align: center;
+  margin-top: 1.5em !important;
+}
+
+#personal-chef {
+  height: 200px;
+  width: 100%;
+  background: black;
+}
+
+#personal-chef h2 {
+  text-align: center;
+  margin-top: 1.5em !important;
+}
